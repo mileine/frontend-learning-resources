@@ -6,13 +6,13 @@ module.exports = {
     description: `This is my description that will be used in the meta tags and important for search results`,
     social: [
       {
-        name: ``,
-        url: ``
+        name: `twitter`,
+        url: `https://twitter.com/mileinesouto`
       }
     ],
     sidebarConfig: {
-      forcedNavOrder: ["/introduction", "/codeblock"],
-      ignoreIndex: true
+      forcedNavOrder: ["/introduction", "/css", "/web-animations", "/d3","/frameworks","/design"],
+      ignoreIndex: false
     }
   },
   plugins: [{ resolve: `gatsby-theme-document` }]
